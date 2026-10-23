@@ -134,7 +134,7 @@ Use SemVer for this reusable workflow:
 - **MINOR:** a backward-compatible addition, such as a new optional module or an expanded adoption rule.
 - **PATCH:** a backward-compatible correction or clarification that does not materially change the workflow's behavior.
 
-Preserve released versions as historical records. Publish a new version rather than silently changing the contents of an already released version. When a project adopts a newer workflow, record the version and any relevant changes to its development plan.
+Treat each released workflow version as an immutable historical record in Git. For a lightweight repository, keep only the current versioned workflow filename in the working tree and use Git history to compare or recover earlier releases. Increment SemVer and rename the file for every revision; never change released contents under the same version number. When a project adopts a newer workflow, record the version and any relevant changes to its development plan.
 
 ### 4.5 Maintenance documents and milestone documents
 
