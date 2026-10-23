@@ -229,7 +229,7 @@ Resolve these before calling the design ready for implementation:
 
 Git Visual adopts the **Development State Machine Workflow v1.2.0**, maintained separately in `devstatemachine.md`. This initial design is the app-specific design artifact; it does not replace or modify the reusable workflow.
 
-- Project overview: `GitVisual-README-v0.1.2.md`, currently `Git Visual README v0.1.1`.
+- Project overview: `GitVisual-README-v0.1.2.md`, currently `Git Visual README v0.1.2`.
 - Initial design: `GitVisual-InitialDesign-v0.5.2.md` (this draft). Its filename, title, and document body carry its independent SemVer version.
 - Maintenance document: `GitVisual-Maintenance-vX.Y.Z.md` in the same repository-root location as the initial design. Name each versioned project document with its document type and SemVer, for example `GitVisual-Maintenance-v1.0.0.md`. Each version is a separate file; do not overwrite or delete earlier versions. The filename, internal title, and document-version field must agree. Keep versions side by side so the current version is visible in the repository file list, while Git history provides additional provenance.
 - Project document convention: every versioned project document filename includes its own SemVer (for example, `GitVisual-InitialDesign-v0.5.2.md`), and the internal title and document-version field match. Keep previous versions as separate files. The reusable workflow remains a separately versioned artifact.
