@@ -247,7 +247,7 @@ The following are observations from the repository, not proposed features:
 - The native scaffold uses Tauri 2 and Rust. `src-tauri/src/lib.rs` registers the greeting command and the Tauri opener plugin.
 - `package.json` contains Vite dev/build/preview scripts and the Tauri CLI script. Its declared frontend dependencies contain no graph-rendering or Git library.
 - `src-tauri/Cargo.toml` contains Tauri, the opener plugin, Serde, and Serde JSON; it declares no Git library.
-- `GitVisual-README-v0.1.2.md` is the default Tauri + React + TypeScript starter description.
+- `README.md` remains the GitHub landing page and links to the versioned project overview.
 - `devstatemachine.md` contains Reusable Workflow Prompt v1.2.0 and specifies independent SemVer histories, design/refinement/approval gates, candidate preservation, source inspection, runtime acceptance evidence, and maintenance updates.
 - The inspected repository root had no initial design, maintenance document, or visible frontend/backend test files. Generated Tauri schema files and build output exist; they are not treated as application features.
 - Git reported the checked-out branch as `main`, tracking `origin/main`, with no short-status changes at inspection time. Git required a command-scoped `safe.directory` setting because the repository owner differs from the sandbox user; no global Git configuration was changed.
@@ -263,7 +263,8 @@ Each meaningful revision increments this document's independent SemVer and creat
 | 0.3.0 | Draft / superseded | Expanded the left navigation/right panel workspace, restart restoration, and graph-scope/file-support proposals; included an in-app comparison idea later rejected by the user. |
 | 0.4.0 | Draft / superseded | Added plain-language explanations and recommended defaults for remaining design questions; established the SemVer-in-title convention. |
 | 0.5.0 | Draft / superseded | Applied the title convention to the README and documented the project-document versioning rule. |
-| 0.5.1 | Draft / superseded | Corrected a scope misunderstanding: Git diff review is a development verification step, not an initial Git Visual feature. |\n| 0.5.2 | Draft | Clarified that SemVer must appear in project document filenames as well as internal titles; each version remains a separate file. |
+| 0.5.1 | Draft / superseded | Corrected a scope misunderstanding: Git diff review is a development verification step, not an initial Git Visual feature. |
+| 0.5.2 | Draft | Clarified that SemVer must appear in project document filenames as well as internal titles; each version remains a separate file. |
 
 
 
