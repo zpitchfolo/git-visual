@@ -4,8 +4,8 @@ Git Visual is planned as a graph-first desktop Git client for exploring reposito
 
 ## Current project documents
 
-- [Initial design v0.5.2](GitVisual-InitialDesign-v0.5.2.md) — product scope, proposed behavior, open decisions, and acceptance criteria.
-- [Project overview v0.1.2](GitVisual-README-v0.1.2.md) — concise project summary.
-- [Development workflow v1.2.0](devstatemachine-v1.2.0.md) — reusable workflow governing design, implementation, testing, and acceptance.
+- [Initial design v0.6.0](GitVisual-InitialDesign-v0.6.0.md) — product scope, proposed behavior, open decisions, and acceptance criteria.
+- [Project overview v0.1.3](GitVisual-README-v0.1.3.md) — concise project summary.
+- [Development workflow v1.2.1](devstatemachine-v1.2.1.md) — reusable workflow governing design, implementation, testing, and acceptance.
 
-Versioned project documents include SemVer in their filenames and matching internal titles. Earlier versions remain as separate files. This root `README.md` is kept as GitHub's landing page and current-document index, so the repository opens with a useful overview.
+Versioned project documents include SemVer in their filenames and matching internal titles. Keep one current file per document type and rename it when the version changes; Git history preserves prior versions. This root `README.md` remains GitHub's landing page and current-document index.
