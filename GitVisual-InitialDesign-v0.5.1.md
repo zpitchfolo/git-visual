@@ -3,7 +3,7 @@
 **Artifact version:** 0.5.1  
 **Status:** Draft — S2 (Design refinement); proposed defaults await review, not ready for implementation  
 **Date:** 2026-10-23  
-**Workflow:** Development State Machine Workflow v1.2.0 (`devstatemachine.md`)  
+**Workflow:** Development State Machine Workflow v1.2.0 (`devstatemachine-v1.2.0.md`)  
 **Evidence label:** Designed (proposed behavior only)
 
 > This document is a design draft. It describes intended behavior and proposals; it does not claim that those features exist in the application. Important open questions remain for S2 design refinement. No implementation is authorized by this draft.
@@ -227,7 +227,7 @@ Resolve these before calling the design ready for implementation:
 11. **Product framing:** Should the initial app expose only history browsing, or include a read-only summary of working-tree changes as a clearly separate view?
 ## 13. Workflow adoption and document map
 
-Git Visual adopts the **Development State Machine Workflow v1.2.0**, maintained separately in `devstatemachine.md`. This initial design is the app-specific design artifact; it does not replace or modify the reusable workflow.
+Git Visual adopts the **Development State Machine Workflow v1.2.0**, maintained separately in `devstatemachine-v1.2.0.md`. This initial design is the app-specific design artifact; it does not replace or modify the reusable workflow.
 
 - Project overview: `README.md`, currently `Git Visual README v0.1.1`.
 - Initial design: `GitVisual-InitialDesign-v0.5.1.md` (this draft). Its title and document body carry its independent SemVer version.
@@ -248,7 +248,7 @@ The following are observations from the repository, not proposed features:
 - `package.json` contains Vite dev/build/preview scripts and the Tauri CLI script. Its declared frontend dependencies contain no graph-rendering or Git library.
 - `src-tauri/Cargo.toml` contains Tauri, the opener plugin, Serde, and Serde JSON; it declares no Git library.
 - `README.md` is the default Tauri + React + TypeScript starter description.
-- `devstatemachine.md` contains Reusable Workflow Prompt v1.2.0 and specifies independent SemVer histories, design/refinement/approval gates, candidate preservation, source inspection, runtime acceptance evidence, and maintenance updates.
+- `devstatemachine-v1.2.0.md` contains Reusable Workflow Prompt v1.2.0 and specifies independent SemVer histories, design/refinement/approval gates, candidate preservation, source inspection, runtime acceptance evidence, and maintenance updates.
 - The inspected repository root had no initial design, maintenance document, or visible frontend/backend test files. Generated Tauri schema files and build output exist; they are not treated as application features.
 - Git reported the checked-out branch as `main`, tracking `origin/main`, with no short-status changes at inspection time. Git required a command-scoped `safe.directory` setting because the repository owner differs from the sandbox user; no global Git configuration was changed.
 
