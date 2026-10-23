@@ -229,7 +229,7 @@ Resolve these before calling the design ready for implementation:
 
 Git Visual adopts the **Development State Machine Workflow v1.2.1**, maintained separately in `devstatemachine-v1.2.1.md`. This initial design is the app-specific design artifact; it does not replace or modify the reusable workflow.
 
-- Project overview: `GitVisual-README-v0.1.3.md`, currently `Git Visual README v0.1.3`.
+- Project overview: root `README.md`, kept at this stable filename for GitHub's landing-page behavior. It is an index/summary, not a versioned sibling document.
 - Initial design: `GitVisual-InitialDesign-v0.6.0.md` (this draft). Its filename, title, and document body carry its independent SemVer version.
 - Maintenance document: `GitVisual-Maintenance-vX.Y.Z.md` in the same repository-root location as the initial design. Name each versioned project document with its document type and SemVer, for example `GitVisual-Maintenance-v1.0.0.md`. The filename, internal title, and document-version field must agree. Keep one current file per document type. On revision, increment SemVer and rename/replace the current file; use Git history to compare or recover previous contents. Do not keep superseded document copies in the working tree unless side-by-side versions are specifically useful.
 - Project document convention: every versioned project document filename includes its own SemVer (for example, `GitVisual-InitialDesign-v0.6.0.md`), and the internal title and document-version field match. Keep one current file per document type by default, incrementing SemVer and renaming the file on revision. Git history provides the prior versions. The reusable workflow remains a separately versioned artifact.
@@ -252,19 +252,9 @@ The following are observations from the repository, not proposed features:
 - The inspected repository root had no initial design, maintenance document, or visible frontend/backend test files. Generated Tauri schema files and build output exist; they are not treated as application features.
 - Git reported the checked-out branch as `main`, tracking `origin/main`, with no short-status changes at inspection time. Git required a command-scoped `safe.directory` setting because the repository owner differs from the sandbox user; no global Git configuration was changed.
 
-## 15. Draft history
+## 15. Version history
 
-Each meaningful revision increments this document's independent SemVer and renames/replaces the current filename. Git history preserves previous contents.
-
-| Version | Status | Change |
-|---|---|---|
-| 0.1.0 | Draft / superseded | Initial S1 draft describing graph navigation, exact snapshots, and persistent historical-file panels; superseded during the move to stable document filenames and not separately committed. |
-| 0.2.0 | Draft / superseded | Established stable document paths, in-file SemVer, and Git history as the record of prior committed revisions; an in-app parent-comparison idea was only a draft proposal. |
-| 0.3.0 | Draft / superseded | Expanded the left navigation/right panel workspace, restart restoration, and graph-scope/file-support proposals; included an in-app comparison idea later rejected by the user. |
-| 0.4.0 | Draft / superseded | Added plain-language explanations and recommended defaults for remaining design questions; established the SemVer-in-title convention. |
-| 0.5.0 | Draft / superseded | Applied the title convention to the README and documented the project-document versioning rule. |
-| 0.5.1 | Draft / superseded | Corrected a scope misunderstanding: Git diff review is a development verification step, not an initial Git Visual feature. |
-| 0.6.0 | Draft | Clarified that SemVer must appear in project document filenames as well as internal titles; each version remains a separate file. |
+The current document version is 0.6.0. Git history is the source for comparing or restoring previous revisions; superseded design files are not kept alongside the current file by default.
 
 
 
