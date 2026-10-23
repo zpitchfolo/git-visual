@@ -11,7 +11,7 @@ The current application is still the Tauri + React + TypeScript starter scaffold
 
 ## Project documents
 
-- [Initial design](GitVisual-InitialDesign-v0.5.2.md) — v0.5.1 draft; goals, scope, behavior, open decisions, and proposed acceptance criteria.
+- [Initial design](GitVisual-InitialDesign-v0.5.2.md) — v0.5.2 draft; goals, scope, behavior, open decisions, and proposed acceptance criteria.
 - [Development workflow](devstatemachine.md) — reusable workflow v1.2.0; governs design, implementation, testing, and acceptance.
 - `GitVisual-Maintenance-vX.Y.Z.md` — planned at the repository root; it will record accepted implementation versions, test evidence, and known limitations after implementation begins.
 
