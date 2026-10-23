@@ -12,7 +12,7 @@ The current application is still the Tauri + React + TypeScript starter scaffold
 ## Project documents
 
 - [Initial design](GitVisual-InitialDesign-v0.5.1.md) — v0.5.1 draft; goals, scope, behavior, open decisions, and proposed acceptance criteria.
-- [Development workflow](devstatemachine.md) — reusable workflow v1.2.0; governs design, implementation, testing, and acceptance.
+- [Development workflow](devstatemachine-v1.2.0.md) — reusable workflow v1.2.0; governs design, implementation, testing, and acceptance.
 - `Maintenance.md` — planned at the repository root; it will record accepted implementation versions, test evidence, and known limitations after implementation begins.
 
 Project document filenames remain stable. Each document has an independent SemVer version in its title; Git history will preserve and compare committed revisions. When developing the app, source diffs against the last accepted commit are part of our verification workflow, not an app feature.
